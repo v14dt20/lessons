@@ -17,9 +17,8 @@ int main() {
 
     for (int i = 1; i <= N; ++i) {
         buf = i;
-        for (int j = i + 1; j <= i * 2; ++j) {
+        for (int j = i + 1; j <= i * 2; ++j)
             buf *= j;
-        }
         sum += buf;
     }
 

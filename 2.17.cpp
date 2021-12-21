@@ -6,9 +6,8 @@ using namespace std;
 
 float my_pow(float x, int step) {
     int res = 1;
-    for (int i = 0; i < step; ++i) {
+    for (int i = 0; i < step; ++i)
         res *= x;
-    }
     return res;
 }
 
@@ -30,9 +29,8 @@ int main() {
     cout << "Enter x, n >> ";
     cin >> x >> n;
     cout << "=================" << endl;
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i)
         sum += my_pow(x, i) / fact(i);
-    }
     cout << "Result: " << sum << endl;
     return 0;
 }

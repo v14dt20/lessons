@@ -6,7 +6,9 @@ using namespace std;
 
 int main() {
     system("color 3");
-    int N = 0, d;
+    
+    int N = 0;
+    int d = 0;
 
     cout << "Enter side cube - N >> ";
     cin >> N;
