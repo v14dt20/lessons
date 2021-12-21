@@ -21,7 +21,7 @@ int fact(int i) {
 
 
 int main() {
-    system("color 3");
+    //system("color 3");
     float x = 0;
     float n = 0;
     float sum  = 0;

@@ -6,7 +6,7 @@ using namespace std;
 
 
 int main() {
-    system("color 3");
+    //system("color 3");
 
     int num_1 = 0;
     int num_2 = 0;

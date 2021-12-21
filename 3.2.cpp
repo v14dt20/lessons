@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main() {
-    system("color 3");
+    //system("color 3");
     srand(time(NULL));
 
     const int SIZE = 10;

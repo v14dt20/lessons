@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main() {
-    system("color 3");
+    //system("color 3");
 
     int n = 0;
     float sum = 0;
